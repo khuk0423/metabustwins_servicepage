@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>Metabus Twins</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta name="description" content="Metabus Twins Service Page">
+    <script src="https://kit.fontawesome.com/aa6be59868.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fab fa-angellist"></i>
+        <a href="#">Metabus Twins</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item">Introduction</li>
+        <li class="navbar__menu__item dropdown">
+          Technology <!--▾ 
+            <ul class="dropdown">
+            <li>세부메뉴 1</li>
+            <li>세부메뉴 2</li>
+            <li>세부메뉴 3</li>
+          </ul> -->
+        </li>
+        <li class="navbar__menu__item">Vision</li>
+        <li class="navbar__menu__item">News</li>
+        <li class="navbar__menu__item">Service</li>
+        <li class="navbar__menu__item">Contact</li>
+      </ul>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+      <h1>나와 똑 닮은 쌍둥이, 인공지능 AR 트윈</h1>
+    </section>
   </body>
 </html>
